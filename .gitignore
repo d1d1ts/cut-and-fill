@@ -1,0 +1,26 @@
+# AutoLISP
+*.fas
+*.vlx
+*.lsp-
+*.bak
+*.log
+*.lin
+
+# Backup DWG
+*.dwg.bak
+*.dwl
+*.dwl2
+*.sv$
+*.tmp
+
+# File sementara
+*~
+~$*
+*.tmp
+Thumbs.db
+desktop.ini
+.DS_Store
+
+# Gambar hasil uji lokal (opsional - hapus tanda # jika mau ikut ter-commit)
+# test/*.dwg
+# test/*.png
