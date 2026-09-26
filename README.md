@@ -23,6 +23,34 @@ Yang terkait tapi **bukan** hitungan cut & fill:
 
 Jadi LISP di repo ini akan dibuat baru, dengan acuan kompatibilitas output `rdg.lsp`.
 
+## Dokumentasi
+
+Detail lengkap ada di folder [`docs/`](docs/README.md):
+
+| File | Isi |
+|---|---|
+| [docs/CUT-AND-FILL-LISP.md](docs/CUT-AND-FILL-LISP.md) | Dokumentasi LISP: command, rumus, input/output, verifikasi |
+| [docs/CUT-AND-FILL-WORKFLOW.md](docs/CUT-AND-FILL-WORKFLOW.md) | Panduan menggambar rencana cut & fill + konvensi layer |
+| [docs/CROSS-SECTION-LISP.md](docs/CROSS-SECTION-LISP.md) | Temuan LISP cross section yang sudah ada di workspace lama |
+| [docs/CIVIL3D-2021-MCP.md](docs/CIVIL3D-2021-MCP.md) | Data inventaris AutoCAD 2021 & Civil 3D 2021 + rancangan MCP |
+
+---
+
+## Struktur Repo
+
+```
+cut-and-fill/
+├── src/
+│   └── cutfill.lsp      ← LISP utama
+├── test/
+│   └── verify.py        ← verifikasi rumus (port ke Python)
+├── docs/                ← dokumentasi
+├── README.md
+└── .gitignore
+```
+
+---
+
 ## Fitur
 
 Perhitungan **cut & fill (galian / timbun)** metode **Average End Area**.
