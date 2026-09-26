@@ -1,3 +1,7 @@
+# Python test
+__pycache__/
+*.pyc
+
 # AutoLISP
 *.fas
 *.vlx
